@@ -1,0 +1,48 @@
+body {
+    background-color: #366141;
+}
+.container {
+     width: fit-content;
+     margin: 10% auto;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    vertical-align: center;
+    font-family: 'Akaya Telivigala', cursive;
+}
+kbd {
+    display: inline-block;
+    background-color: #FFFFFF;
+    font-size: 28px;
+    height: 300px;
+    width: 60px;
+    border: 4px solid #929292;
+    text-align: center;
+    margin-left: -4px;
+    z-index: 0;
+}
+.black-keys{
+    z-index: 1;
+}
+#w,#e,#t,#t,#y,#u{
+    border: 2px solid #929292;
+    color:white;
+    background-color: black;
+    height: 150px;
+    width: 30px;
+    position: relative;
+    bottom:306px;
+    right:102px;
+}
+#u{
+    left:102px;
+}
+#y{
+    left:68px;
+}
+#t{
+    left:35px;
+}
+#e{
+    left:-68px;
+}
